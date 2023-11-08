@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>楊荃喜的履歷表</title>
+	<style type="text/css">
+		* { font-family:"標楷體"; margin-left:auto; margin-right:auto;}
+		h1 {color:blue; font-size:60px;}
+		h2 {color:#ed2644; font-size:40px;}
+	</style>
+
+
+	<script>
+		function change1() {
+  			document.getElementById("pic").src = "/static/qly.jpg";
+  			document.getElementById("h2text").innerText = "靜宜資訊管理系";
+		}
+
+		function change2() {
+  			document.getElementById("pic").src = "/static/uan.jpg";
+  			document.getElementById("h2text").innerText = "quanxily";
+		}
+	</script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+</head>
+<body>
+	<main class="container-fluid bg-warning text-white text-center">
+	<table width="70%">
+		<tr>
+			<td>
+				<img src="/static/qly.jpg"  width="80%" id="pic"  onmouseover="change1()" onmouseout="change2()"></img>
+			</td>
+
+			<td>
+				<main class="container-fluid bg-light text-white text-center">
+				<h1>楊荃喜的求職履歷</h1>
+				<h2 id="h2text">我的履歷表</h2>
+				<main class="container-fluid bg-light text-white text-center">
+			</td>
+		</tr>
+	</table>
+
+	<footer>
+		Copyright ©  楊荃喜. All Rights Reserved.
+	</footer>
+
+	<main class="container-fluid bg-warning text-white text-center">
+</body>
+</html>

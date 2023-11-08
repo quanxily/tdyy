@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>職涯測驗結果</title>
+    <style>
+        *  { font-family: "標楷體"; }
+        h1 {color:#9010eb; font-size:60px;}
+        h2 {color:#2cb2d4; font-size:20px;}
+    </style>
+
+
+    <script>
+        function change1() {
+            document.getElementById("pic").src = "/static/dog.jpg";
+        }
+        function change2() {
+            document.getElementById("aaa").src = "/static/qua.jpg";
+        }
+        function change3() {
+            document.getElementById("bbb").src = "/static/hou.jpg";
+        }
+        function change4() {
+            document.getElementById("ccc").src = "/static/ddy.jpg";
+        }
+        function change5() {
+            document.getElementById("ddd").src = "/static/xil.jpg";
+        }
+        function change6() {
+            document.getElementById("eee").src = "/static/def.jpg";
+        }
+    </script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+<body>
+    <main class="container-fluid bg-secondary text-white text-center">
+    <table width="70%">
+        <tr>
+            <td>
+                <main class="container-fluid bg-light text-white text-center">
+                <h1>楊荃喜的職涯測驗結果</h1>
+                <main class="container-fluid bg-light text-white text-center">
+            </td>
+
+            <td>
+                <img src="/static/dog.jpg"class="img-fluid rounded-circle"width="70%" id="pic" onmouseover="change1()" ></img>
+            </td>
+        </tr>
+    </table>
+
+    <table width="50%" border="2">
+        <tr>
+            <tr>
+            <td>
+                <h2>16職涯類型診斷分數</h2>
+            </td>
+
+            <td>
+                <img src="/static/qua.jpg"width="70%" id="aaa" onmouseover="change2()" ></img>
+            </td>
+        </tr>
+
+         <tr>
+            <tr>
+            <td>
+                <h2>職涯性格類型</h2>
+            </td>
+
+            <td>
+                <img src="/static/hou.jpg"width="70%" id="bbb" onmouseover="change3()" ></img>
+            </td>
+        </tr>
+
+           
+        <tr>
+            <tr>
+            <td>
+                <h2>我的職涯性格類型</h2>
+            </td>
+
+            <td>
+                <img src="/static/ddy.jpg"width="80%" id="ccc" onmouseover="change4()" ></img>
+            </td>
+        </tr>
+
+             <tr>
+            <tr>
+            <td>
+                <h2>我的職涯性格類型-C事務型分析</h2>
+            </td>
+
+            <td>
+                <img src="/static/xil.jpg"width="80%" id="ddd" onmouseover="change5()" ></img>
+            </td>
+        </tr>
+
+         <tr>
+            <tr>
+            <td>
+                <h2>我的職涯性格類型-E企業型分析</h2>
+            </td>
+
+            <td>
+                <img src="/static/def.jpg"width="80%" id="eee" onmouseover="change6()" ></img>
+            </td>
+        </tr>
+    </table>
+
+    <footer>
+        Copyright ©  楊荃喜. All Rights Reserved.
+    </footer>
+    <main class="container-fluid bg-secondary text-white text-center">
+</body>
+</html>

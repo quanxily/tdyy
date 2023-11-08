@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>求職自傳履歷</title>
+	<style type="text/css">
+		* { font-family:"標楷體"; margin-left:auto; margin-right:auto;}
+		h1 {color:#f2aeb3; font-size:60px;}
+		h2 {color:#edbc93; font-size:40px;}
+		h3 {font-size:20px;}
+	</style>
+
+	<script>
+		function change2() {
+  			document.getElementById("pic").src = "/static/cho.jpg";
+  			document.getElementById("h2text").innerText = "choose";
+		}
+
+		function change3() {
+  			document.getElementById("pic").src = "/static/fut.jpg";
+  			document.getElementById("h2text").innerText = "future";
+		}
+	</script>
+
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+</head>
+<body>
+	<main class="container-fluid bg-info text-white text-center">
+	<table width="70%">
+		<tr>
+			<td>
+				<img src="/static/cho.jpg" class="img-fluid rounded-circle"width="80%" id="pic" onmouseover="change2()" onmouseout="change3()"></img>
+			</td>
+
+			<td>
+				<main class="container-fluid bg-light text-white text-center">
+				<h1>楊荃喜的求職自傳</h1>
+				<h2 id="h2text">我的自傳</h2>
+				<main class="container-fluid bg-light text-white text-center">
+			</td>
+		</tr>
+	</table>
+
+
+	<table width="70%" border="1">
+		<tr>
+			<td>
+				<h2>自我介紹</h2><br>
+				<h3>我是楊荃喜，目前就讀靜宜大學資訊管理學系，專長還在發展中,未來規劃利用台灣就業通職前訓練的課程選擇有關於現在自己所選的科系,然後透過課程去上課,之後進入有關此課程的相關工作來賺錢</h3><br>
+			</td>
+
+			<td>
+				<h2>為什麼適合這份工作</h2><br>
+				<h3>在高二我有學到有關資料庫的課程,這工作有一項技能就是資料庫軟體應用,這能力就是我們現在在這課程所學習的,所以我能用之前所學的用到後續的工作上,也能讓這技能慢慢提升</h3><br>
+			</td>
+
+			<td>
+				<h2>未來規劃</h2><br>
+				<h3>畢業後我有英文多益檢定以及程式,我會選擇去資訊公司工作,因為我選的科系就是資訊科,若工作也選有關資訊科系的話,對我來說不用從零開始學,只要在學些新東西就好了.</h3><br>
+			</td>
+		</tr>
+	</table>
+
+
+	<footer>
+		Copyright ©  楊荃喜. All Rights Reserved.
+	</footer>
+	<main class="container-fluid bg-info text-white text-center">
+</body>
+</html>
